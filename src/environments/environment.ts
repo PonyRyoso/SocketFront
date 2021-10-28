@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  apiServices :  'http://localhost:3000/Api',
+
+  ServerSocket : 'http://localhost:4000',
+  PeerSocket : 'http://localhost:3500',
+
 };
 
 /*
